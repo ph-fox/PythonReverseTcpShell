@@ -3,6 +3,8 @@ import socket
 ip = input("Enter your ip: ")
 p = int(input("Enter port: "))
 
+c = socket.gethostbyname(socket.gethostname())
+
 print("Server Started...waiting client to connect")
 
 def Connection():
@@ -10,6 +12,8 @@ def Connection():
     s.bind((ip,p))
     s.listen(1)
     con, addr = s.accept()
+    print("Type ' bye ' to close session")
+    print(f"Client hostname is => {c}")
     print(addr, " Client Is Connected")
     
     while True:
