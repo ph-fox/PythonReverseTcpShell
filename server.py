@@ -3,7 +3,7 @@ import socket
 ip = input("Enter your ip: ")
 p = int(input("Enter port: "))
 
-c = socket.gethostbyname(socket.gethostname())
+c = socket.gethostname()
 
 print("Server Started...waiting client to connect")
 
