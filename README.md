@@ -10,3 +10,4 @@ then Enter your ip and your port so they can connect to the server
 then youll get access to their machine.
 
 ## FTP features coming soon!
+FTP IS ON GOING.. stay tune.
