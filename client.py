@@ -20,3 +20,5 @@ def connection():
                s.sent(term.stderr.read())
          
 connection()
+
+				
